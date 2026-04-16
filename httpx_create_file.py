@@ -22,20 +22,17 @@ user_token = login_response.json()
 print(login_response.status_code)
 print(login_response.json())
 
-edit_payload = {
-    "email": faker.get_random_email(),
-    "lastName": "string",
-    "firstName": "string",
-    "middleName": "string"
-}
-edit_headers = {
+
+create_file_header = {
     "Authorization": f"Bearer {user_token['token']['accessToken']}"
 }
-edit_response = httpx.patch(url=f"http://localhost:8000/api/v1/users/{create_response.json()['user']['id']}", headers=edit_headers, json=edit_payload)
-print(edit_response.status_code)
-print(edit_response.json())
 
+create_file_response = httpx.post(
+    "http://localhost:8000/api/v1/files",
+    data={"filename": "image.png", "directory": "courses"},
+    files={"upload_file": open('./testdata/files/images.jpg', 'rb')},
+    headers=create_file_header
+)
 
-
-
-
+create_file_response_data = create_file_response.json()
+print(f"Create File data:", create_file_response_data)
