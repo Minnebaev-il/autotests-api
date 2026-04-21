@@ -29,7 +29,6 @@ from time import sleep
 from pydantic import BaseModel, Field, ConfigDict, computed_field, HttpUrl, EmailStr, ValidationError
 from pydantic.alias_generators import to_camel
 
-
 class FileSchema(BaseModel):
     id: str
     url: HttpUrl
@@ -71,7 +70,7 @@ course_default_model = CourseSchema(
     description="Playwright",
     preview_file=FileSchema(
         id="file_id",
-        url="http://localhost:8000",
+        url="https://localhost.ru",
         filename="images.jpeg",
         directory="courses"
     ),
@@ -94,7 +93,7 @@ course_dict = {
     "description": "Playwright",
     "previewFile": {
         "id": "file_id",
-        "url": "http://localhost:8000",
+        "url": "https://localhost.ru",
         "filename": "images.jpeg",
         "directory": "courses"
     },
@@ -120,7 +119,7 @@ course_json = """
     "description": "Playwright",
     "previewFile": {
         "id": "file_id",
-        "url": "http://localhost:8000",
+        "url": "https://localhost.ru",
         "filename": "images.jpeg",
         "directory": "courses"
     },
@@ -154,7 +153,7 @@ try:
     file = FileSchema(
         id="file_id",
         url="https://localhost.ru",
-        filname="images.jpeg",
+        filename="images.jpeg",
         directory="courses"
     )
 except ValidationError as error:
