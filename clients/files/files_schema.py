@@ -7,8 +7,9 @@ class FileSchema(BaseModel):
     Описание структуры файла.
     """
     model_config = ConfigDict(populate_by_name=True)
+
     id: str = Field(default_factory=lambda: str(uuid.uuid4()))
-    filename: str
+    file_name: str = Field(alias="filename")
     directory: str
     url: HttpUrl
 
@@ -16,7 +17,9 @@ class CreateFileRequestSchema(BaseModel):
     """
     Описание структуры запроса на создание файла.
     """
-    filename: str
+    model_config = ConfigDict(populate_by_name=True)
+
+    file_name: str = Field(alias="filename")
     directory: str
     upload_file: str
 

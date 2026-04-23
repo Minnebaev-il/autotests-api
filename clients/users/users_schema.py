@@ -1,4 +1,4 @@
-from pydantic_basics import BaseModel, Field, EmailStr, ConfigDict
+from pydantic import BaseModel, Field, EmailStr, ConfigDict
 import uuid
 
 
