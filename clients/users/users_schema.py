@@ -14,6 +14,9 @@ class UserSchema(BaseModel):
     first_name: str = Field(alias="firstName")
     middle_name: str = Field(alias="middleName")
 
+class GetUserQuerySchema(BaseModel):
+    user_id: str
+
 class CreateUserRequestSchema(BaseModel):
     """
     Структура данных для запроса на создание пользователя:
