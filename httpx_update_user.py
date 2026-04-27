@@ -1,9 +1,9 @@
 import httpx
-from tools import faker
+from tools.faker import fake
 
 
 create_payload = {
-    "email": faker.get_random_email(),
+    "email": fake.email(),
     "password": "string",
     "lastName": "string",
     "firstName": "string",
@@ -23,7 +23,7 @@ print(login_response.status_code)
 print(login_response.json())
 
 edit_payload = {
-    "email": faker.get_random_email(),
+    "email": fake.email(),
     "lastName": "string",
     "firstName": "string",
     "middleName": "string"

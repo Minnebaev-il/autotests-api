@@ -4,8 +4,7 @@ from httpx import Response
 
 from clients.api_client import APIClient
 from clients.private_http_builder import get_private_http_client, AuthenticationUserSchema
-from clients.users.users_schema import UpdateUserRequestSchemat, GetUserResponseSchema, \
-    GetUserQuerySchema
+from clients.users.users_schema import UpdateUserRequestSchemat, GetUserResponseSchema
 
 
 class PrivateUsersClient(APIClient):
@@ -49,8 +48,8 @@ class PrivateUsersClient(APIClient):
         """
         return self.delete(f"/api/v1/users/{user_id}")
 
-    def get_user(self, request: GetUserQuerySchema) -> GetUserResponseSchema:
-        response = self.get_user_api(request.user_id)
+    def get_user(self, user_id: str) -> GetUserResponseSchema:
+        response = self.get_user_api(user_id)
         return GetUserResponseSchema.model_validate_json(response.text)
 
 
