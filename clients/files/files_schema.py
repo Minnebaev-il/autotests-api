@@ -1,6 +1,5 @@
 from pydantic import BaseModel, Field, ConfigDict, HttpUrl
 from tools.faker import fake
-import uuid
 
 
 class FileSchema(BaseModel):
