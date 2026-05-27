@@ -3,13 +3,9 @@ from httpx import Response
 from clients.api_client import APIClient
 from clients.exercises.exercises_schema import (
     GetExercisesQuerySchema,
-    CreateExercisesRequestSchema,
     GetExercisesResponseSchema,
-    GetExerciseRequestSchema,
-    GetExerciseResponseSchema,
-    CreateExercisesResponseSchema,
-    UpdateExercisesRequestSchema,
-    UpdateExercisesResponseSchema
+    GetExerciseResponseSchema, UpdateExercisesRequestSchema, CreateExercisesRequestSchema,
+    CreateExercisesResponseSchema, UpdateExercisesResponseSchema, GetExerciseRequestSchema
 )
 from clients.private_http_builder import AuthenticationUserSchema, get_private_http_client
 
