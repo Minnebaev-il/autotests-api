@@ -21,7 +21,7 @@ class GetExercisesQuerySchema(BaseModel):
     """Параметры запроса для получения списка заданий."""
     model_config = ConfigDict(populate_by_name=True)
 
-    user_id: str = Field(alias="courseId")
+    course_id: str = Field(alias="courseId")
 
 class GetExerciseRequestSchema(BaseModel):
     """Параметры запроса для получения задания по exercise_id"""
@@ -29,7 +29,7 @@ class GetExerciseRequestSchema(BaseModel):
 
 class GetExercisesResponseSchema(BaseModel):
     """Структура ответа при получении списка заданий."""
-    exercises: List[ExercisesSchema]
+    exercises: list[ExercisesSchema]
 
 class GetExerciseResponseSchema(BaseModel):
     """Структура ответа после успешного получения одного задания"""
