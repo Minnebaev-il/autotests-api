@@ -23,6 +23,8 @@ from tools.assertions.users import assert_create_user_response, assert_get_user_
 @allure.tag(AllureTag.USERS, AllureTag.REGRESSION)
 @allure.epic(AllureEpic.LMS)
 @allure.feature(AllureFeature.USERS)
+@allure.parent_suite(AllureEpic.LMS)
+@allure.suite(AllureFeature.USERS)
 class TestUsers:
     @pytest.mark.parametrize("email", ["mail.ru",
                                        "gmail.com",
@@ -31,6 +33,7 @@ class TestUsers:
     @allure.story(AllureStory.CREATE_ENTITY)
     @allure.title("Create user")
     @allure.severity(Severity.BLOCKER)
+    @allure.sub_suite(AllureStory.CREATE_ENTITY)
     def test_create_user(self, email: str, public_user_client: PublicUsersClient):
         request = CreateUserRequestSchema()
         response = public_user_client.create_user_api(request)
@@ -45,6 +48,7 @@ class TestUsers:
     @allure.story(AllureStory.GET_ENTITY)
     @allure.title("Get user me")
     @allure.severity(Severity.CRITICAL)
+    @allure.sub_suite(AllureStory.GET_ENTITY)
     def test_get_user_me(
             self,
             function_user: UserFixture,

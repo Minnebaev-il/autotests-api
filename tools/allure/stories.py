@@ -2,7 +2,7 @@ from enum import Enum
 
 
 class AllureStory(str, Enum):
-    LOGIN = "LOGIN"
+    LOGIN = "Login"
 
     GET_ENTITY = "Get entity"
     GET_ENTITIES = "Get entities"
