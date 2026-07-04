@@ -1,4 +1,4 @@
-import  pytest
+import pytest
 from pydantic import BaseModel, EmailStr
 from clients.private_http_builder import AuthenticationUserSchema
 from clients.users.private_users_client import PrivateUsersClient, get_private_users_client
