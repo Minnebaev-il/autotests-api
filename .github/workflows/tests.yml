@@ -46,33 +46,33 @@ jobs:
         run: |
           pytest -m regression --alluredir=allure-results --numprocesses=auto
 
-publish-report:
-  needs: run-tests
-  runs-on: ubuntu-latest
+  publish-report:
+    needs: run-tests
+    runs-on: ubuntu-latest
 
-  steps:
-    - name: Check out repository
-      uses: actions/checkout@v4
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
 
-    - name: Get Allure history
-      uses: actions/checkout@v7
-      if: always()
-      continue-on-error: true
-      with:
-        ref: gh-pages
-        path: gh-pages
+      - name: Get Allure history
+        uses: actions/checkout@v7
+        if: always()
+        continue-on-error: true
+        with:
+          ref: gh-pages
+          path: gh-pages
 
-    - name: Generate Allure Report with history
-      uses: simple-elf/allure-report-action@v1.14
-      if: always()
-      with:
-        allure_results: allure-results
-        allure_history: allure-history
+      - name: Generate Allure Report with history
+        uses: simple-elf/allure-report-action@v1.14
+        if: always()
+        with:
+          allure_results: allure-results
+          allure_history: allure-history
 
-    - name: Deploy to GitHub Pages
-      if: always()
-      uses: peaceiris/actions-gh-pages@v4
-      with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_branch: gh-pages
-        publish_dir: allure-history
+      - name: Deploy to GitHub Pages
+        if: always()
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_branch: gh-pages
+          publish_dir: allure-history
