@@ -46,6 +46,7 @@ jobs:
         run: |
           pytest -m regression --alluredir=allure-results --numprocesses=auto
 
+  publish-report:
       - name: Get Allure history
         uses: actions/checkout@v7
         if: always()
