@@ -49,6 +49,7 @@ jobs:
   publish-report:
     needs: run-tests
     runs-on: ubuntu-latest
+    if: always()
 
     steps:
       - name: Get Allure history
