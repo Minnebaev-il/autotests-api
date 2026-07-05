@@ -58,7 +58,7 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
 
     steps:
-      - name: Check out repository
+      - name: Check  out repository
         uses: actions/checkout@v4
 
       - name: Download Allure Results
