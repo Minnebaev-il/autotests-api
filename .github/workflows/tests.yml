@@ -45,7 +45,6 @@ jobs:
       - name: Run API tests with pytest and generate Allure results
         run: |
           pytest -m regression --alluredir=allure-results --numprocesses=auto
-
   publish-report:
 
       - name: Get Allure history
