@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/46004a8c-21f7-4425-a236-ee3c2d46cd1f' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTA1VDIwOjA2OjM0LjYxMDEzMCIsInVzZXJfaWQiOiIxZGVlYjY5Ni0wZmJlLTRmY2MtYWQ3NS02NzI0NGI0YjFmMTgifQ.l9uPsON1ymFrLkzJyJJvuwXNDNyjaZs-oQNtHc-Vqus' \
+  -H 'content-length: 281' \
+  -H 'content-type: application/json' \
+  -d '{"title":"It increase either debate at crime marriage.","maxScore":52,"minScore":28,"description":"Ten staff peace drug eye table. Then group wind go.\nCan drug practice civil there effort later. Accept final before scientist task. Remain capital peace.","estimatedTime":"5 weeks"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTA1VDIwOjA2OjMzLjQzMTQwMSIsInVzZXJfaWQiOiIwZjBmZjEzZS1hYzIwLTQ1NDYtODAwMy0xNDgyYmMxN2ZjYTkifQ.ezoh-RzW8Ru34SKkHCDdNl9XGxoDfuiOdR4w_xFQ-GE' \
+  -H 'content-length: 352' \
+  -H 'content-type: application/json' \
+  -d '{"title":"See kid trial community treat drop capital.","maxScore":95,"minScore":28,"description":"Notice control despite central.\nFormer word think least another. Response hospital boy that community two manage.","previewFileId":"4f64585f-87f2-497e-9078-f2d39882ac33","estimatedTime":"3 weeks","createdByUserId":"0f0ff13e-ac20-4546-8003-1482bc17fca9"}'

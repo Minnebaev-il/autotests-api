@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTA1VDIwOjA2OjMyLjU1MTUwMCIsInVzZXJfaWQiOiI4YzZiNzgzMS0yOWVhLTQ3MTktOTEyZi0xMGFmYTViYjgxNjYifQ.V7V_xelq3qndNCYRi-xbXbVQjaZ9voOVtoRC1QlIkiE' \
+  -H 'content-length: 383' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Difficult perform market building later.","maxScore":51,"minScore":5,"description":"Every together night visit. Happy scientist week matter.\nDespite avoid be rate drug quickly recent. Foot citizen interview day idea similar tonight.","previewFileId":"1674edf3-cf69-4dd1-9e30-537c7fc2f991","estimatedTime":"5 weeks","createdByUserId":"8c6b7831-29ea-4719-912f-10afa5bb8166"}'

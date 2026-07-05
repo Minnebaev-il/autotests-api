@@ -1,0 +1,20 @@
+INFO     HTTP LOGGER:event_hooks.py:17 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP LOGGER:event_hooks.py:21 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP LOGGER:event_hooks.py:17 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP LOGGER:event_hooks.py:21 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP LOGGER:event_hooks.py:17 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP LOGGER:event_hooks.py:21 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP LOGGER:event_hooks.py:17 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP LOGGER:event_hooks.py:21 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP LOGGER:event_hooks.py:17 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP LOGGER:event_hooks.py:21 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     BASE_ASSERTIONS:base.py:18 Check that response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:89 Check create exercise response
+INFO     BASE_ASSERTIONS:base.py:35 Check that "title" equals to Else hair movie.
+INFO     BASE_ASSERTIONS:base.py:35 Check that "max_score" equals to 59
+INFO     BASE_ASSERTIONS:base.py:35 Check that "min_score" equals to 28
+INFO     BASE_ASSERTIONS:base.py:35 Check that "order_index" equals to 55
+INFO     BASE_ASSERTIONS:base.py:35 Check that "description" equals to Picture vote current view program interesting official.
+INFO     BASE_ASSERTIONS:base.py:35 Check that "estimated_time" equals to 9 weeks
+INFO     BASE_ASSERTIONS:base.py:35 Check that "course_id" equals to 4397046e-564f-436a-ae1e-92c4798d382e
+INFO     SCHEMA_ASSERTIONS:schema.py:21 Validate JSON schema

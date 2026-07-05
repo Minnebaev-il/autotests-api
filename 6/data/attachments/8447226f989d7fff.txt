@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTA1VDIwOjA2OjM0LjYxMDEzMCIsInVzZXJfaWQiOiIxZGVlYjY5Ni0wZmJlLTRmY2MtYWQ3NS02NzI0NGI0YjFmMTgifQ.l9uPsON1ymFrLkzJyJJvuwXNDNyjaZs-oQNtHc-Vqus' \
+  -H 'content-length: 305' \
+  -H 'content-type: application/json' \
+  -d '{"title":"With admit or ahead plant.","maxScore":96,"minScore":3,"description":"Over half reason develop.\nKind news western six natural they. Avoid bad thought job.","previewFileId":"c2a67961-7211-4bb6-9745-2c21f3c63c7b","estimatedTime":"9 weeks","createdByUserId":"1deeb696-0fbe-4fcc-ad75-67244b4b1f18"}'

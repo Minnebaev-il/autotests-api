@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTA1VDIwOjA2OjMyLjgyNjgwMiIsInVzZXJfaWQiOiIzZWM0ODNlYi05NmUxLTRjZTktYmUxZi1hMGMwNmNhZDdlMzQifQ.F5vya0C4QvaA3kCbcD6osoLtPLbfzFjpycXTgaRL4FE' \
+  -H 'content-length: 420' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Explain hot sell despite voice.","maxScore":82,"minScore":3,"description":"Child every amount idea sit. Fact beat my.\nGame many husband pass last then for. Treatment first commercial gas stay.\nWe miss continue itself. Cup throughout herself that store particular both.","previewFileId":"f3c58957-d13c-467e-9c04-62047831a0bc","estimatedTime":"5 weeks","createdByUserId":"3ec483eb-96e1-4ce9-be1f-a0c06cad7e34"}'

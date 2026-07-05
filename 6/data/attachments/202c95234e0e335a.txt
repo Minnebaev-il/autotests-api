@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTA1VDIwOjA2OjM0Ljg5NDA0MiIsInVzZXJfaWQiOiJiYTRkYzUwZS03MzIxLTQwYzktYjI1Ny0zNjEzMjE5YzE5NzQifQ.XYls-UaTnEwtfyU74w76QuQNxX0QWgzB6PWRt_deqxY' \
+  -H 'content-length: 217' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Answer American but represent speak share.","courseId":"9b3e6c31-2aee-439a-bcc9-ec386fe2a119","maxScore":53,"minScore":17,"orderIndex":36,"description":"Until what large positive.","estimatedTime":"3 weeks"}'

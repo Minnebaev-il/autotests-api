@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTA1VDIwOjA2OjM1Ljc4Nzk5OSIsInVzZXJfaWQiOiJhNjA4ZTUzOS0wN2I0LTQzZDAtYjExYi00NDBmMzJlODBiNzMifQ.4EK1aqvL4RYqjnoxHiNcMJsHfnPK2a4pAxuPyyxYC4s' \
+  -H 'content-length: 250' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Source you participant police official focus rate account.","courseId":"5637a4a9-06af-4a2d-9576-99bfcb210f5f","maxScore":64,"minScore":27,"orderIndex":47,"description":"Focus himself interview team break require.","estimatedTime":"3 weeks"}'

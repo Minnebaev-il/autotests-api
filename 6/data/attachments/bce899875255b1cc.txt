@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTA1VDIwOjA2OjM1LjE3OTE2MSIsInVzZXJfaWQiOiJhYzBiYzAzNi0wNzc4LTQ1ODctYmM4Ni03MTEzMDZjNzJhMjQifQ.FQrT1qe3KrJbULyD4wWbxYxXEt6w8g563RTUKvd_BHU' \
+  -H 'content-length: 214' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Democrat day hotel create.","courseId":"8ec33400-363f-4be3-a303-6c23ae992835","maxScore":75,"minScore":21,"orderIndex":98,"description":"Little spring here direction note rest.","estimatedTime":"5 weeks"}'
