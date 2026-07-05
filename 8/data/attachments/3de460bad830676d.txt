@@ -1,0 +1,18 @@
+INFO     HTTP LOGGER:event_hooks.py:17 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP LOGGER:event_hooks.py:21 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP LOGGER:event_hooks.py:17 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP LOGGER:event_hooks.py:21 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP LOGGER:event_hooks.py:17 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP LOGGER:event_hooks.py:21 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP LOGGER:event_hooks.py:17 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP LOGGER:event_hooks.py:21 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     BASE_ASSERTIONS:base.py:18 Check that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:85 Check create course response
+INFO     BASE_ASSERTIONS:base.py:35 Check that "title" equals to Front explain reflect sound step under fly.
+INFO     BASE_ASSERTIONS:base.py:35 Check that "max_score" equals to 78
+INFO     BASE_ASSERTIONS:base.py:35 Check that "min_score" equals to 24
+INFO     BASE_ASSERTIONS:base.py:35 Check that "description" equals to Political boy prevent win center. City service instead foot only law information. Audience read big popular perform everybody many. Size wide wear seem newspaper watch.
+INFO     BASE_ASSERTIONS:base.py:35 Check that "estimated_time" equals to 9 weeks
+INFO     BASE_ASSERTIONS:base.py:35 Check that "preview_file_id" equals to d7666bd1-2fdd-4fe6-96a6-ac9370de78a9
+INFO     BASE_ASSERTIONS:base.py:35 Check that "created_by_user_id" equals to b0430ccf-3b0f-4050-9982-a5f2bfe6fd98
+INFO     SCHEMA_ASSERTIONS:schema.py:21 Validate JSON schema

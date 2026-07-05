@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTA1VDIwOjE3OjA4LjE4NzgzMCIsInVzZXJfaWQiOiJiMDQzMGNjZi0zYjBmLTQwNTAtOTk4Mi1hNWYyYmZlNmZkOTgifQ.tgJX9Fytqxpr2gowB-n4-oROGk_CD7hKRHkYMLMit6Q' \
+  -H 'content-length: 406' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Front explain reflect sound step under fly.","maxScore":78,"minScore":24,"description":"Political boy prevent win center. City service instead foot only law information. Audience read big popular perform everybody many. Size wide wear seem newspaper watch.","previewFileId":"d7666bd1-2fdd-4fe6-96a6-ac9370de78a9","estimatedTime":"9 weeks","createdByUserId":"b0430ccf-3b0f-4050-9982-a5f2bfe6fd98"}'

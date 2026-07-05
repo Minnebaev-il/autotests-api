@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTA1VDIwOjE3OjExLjgwODc0MSIsInVzZXJfaWQiOiI0ZTAwZmRlOS1iMmZkLTQ3YzItODEzMC1kZDM0YTI2NjhmNWIifQ.hzNd3011kycGG0N7tcSrUKuJe0XCAGdpqJak1F5sUzA' \
+  -H 'content-length: 301' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Step he available network television develop.","maxScore":66,"minScore":16,"description":"Doctor boy deep wall population. Wait Republican buy follow.","previewFileId":"05abca77-b1bd-48c1-adc8-7fdd270ce046","estimatedTime":"10 weeks","createdByUserId":"4e00fde9-b2fd-47c2-8130-dd34a2668f5b"}'

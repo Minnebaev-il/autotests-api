@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTA1VDIwOjE3OjExLjEwMjc0MiIsInVzZXJfaWQiOiIzN2NkMzAyNi1hN2VhLTQ4MWYtYWQ5MC01MTQ2ZDAzMGMwMDYifQ.PrFBAnly-Bmb-70TI9TOU7nD5O2VOvXu6ujbaIqQsBM' \
+  -H 'content-length: 352' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Chance start trip entire.","maxScore":64,"minScore":22,"description":"Relate finally apply bag carry shake issue. Whose agreement business machine leg situation middle. Medical professor even charge at.","previewFileId":"464a3991-2bcd-44ba-b346-012bcc90d036","estimatedTime":"8 weeks","createdByUserId":"37cd3026-a7ea-481f-ad90-5146d030c006"}'

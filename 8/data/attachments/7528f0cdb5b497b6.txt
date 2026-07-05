@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTA1VDIwOjE3OjEwLjgyNjU1MSIsInVzZXJfaWQiOiJkNjgzYWJjOS00MmE1LTQwNTItYjEzYy1jYzBmNTNkMjkyMTUifQ.Z-XMWjZmJVZi2C3pv4XPLV8lRdx_W7T0VuOLOQEtdFQ' \
+  -H 'content-length: 405' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Development pattern market price culture computer end.","maxScore":77,"minScore":9,"description":"Full hotel black that car order. Air time ready party return. Tv doctor inside tree message case particular.\nControl go field baby keep cultural sit career.","previewFileId":"06295fb1-c5ec-455f-a818-8a89cbc3d360","estimatedTime":"5 weeks","createdByUserId":"d683abc9-42a5-4052-b13c-cc0f53d29215"}'

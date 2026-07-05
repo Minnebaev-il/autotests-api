@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTA1VDIwOjE3OjA5LjQwMjg1NCIsInVzZXJfaWQiOiIyMzczMWZiNy0xNTc5LTQyN2YtYThjMS03YzUyMDNkNjI1ZGUifQ.qDrgI6tMaD1HwLK5kkI_3Q3ORPdf9ldqTrT9fYEjoGE' \
+  -H 'content-length: 407' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Ahead try move just.","maxScore":60,"minScore":25,"description":"Ahead entire least fast. Health family within tonight protect quite.\nBlack similar huge drive. Method night until support director clear life. Become future management sense give picture pay.","previewFileId":"7aca2384-362b-4eb5-9c86-a9a83b3aae3c","estimatedTime":"5 weeks","createdByUserId":"23731fb7-1579-427f-a8c1-7c5203d625de"}'

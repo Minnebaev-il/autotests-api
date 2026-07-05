@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/exercises/ddf71bb8-15fc-4a00-a1aa-e5c1a4f12061' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTA1VDIwOjE3OjExLjEwMjc0MiIsInVzZXJfaWQiOiIzN2NkMzAyNi1hN2VhLTQ4MWYtYWQ5MC01MTQ2ZDAzMGMwMDYifQ.PrFBAnly-Bmb-70TI9TOU7nD5O2VOvXu6ujbaIqQsBM' \
+  -H 'content-length: 172' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Partner floor suddenly sort quite thousand where.","maxScore":59,"minScore":75,"orderIndex":67,"description":"You prove notice letter.","estimatedTime":"6 weeks"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTA1VDIwOjE3OjA4LjQ2NDI1NSIsInVzZXJfaWQiOiJhZWIzOTQwYi01ZGRiLTQ3YjktODU1NS02ZGFmNmE5NGI1YmEifQ.UGJwoMESluo_-NnYV5AekaIXiMKrE762FHH4KiSC0_s' \
+  -H 'content-length: 393' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Class attack possible suddenly.","maxScore":55,"minScore":22,"description":"Account event anything pick effect across while. Involve your debate go very election admit.\nBlack work model piece must. Price common share leg amount baby behavior.","previewFileId":"b1bee233-1902-404f-ac9c-6b811cf2d54d","estimatedTime":"4 weeks","createdByUserId":"aeb3940b-5ddb-47b9-8555-6daf6a94b5ba"}'
