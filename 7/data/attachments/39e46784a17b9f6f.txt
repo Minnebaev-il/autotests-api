@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTA1VDIwOjE0OjIxLjMwMjc4NSIsInVzZXJfaWQiOiJkNThmOGMzMy1kZDA4LTRhNTQtOTQyMi03NDcyMTYxZGJiNTYifQ.WhoTYfVG2YjCNFnTKg_K_wUgnNf5Amnnu1oY80eqRoE' \
+  -H 'content-length: 402' \
+  -H 'content-type: application/json' \
+  -d '{"title":"I say support rich which.","maxScore":99,"minScore":19,"description":"We activity happen data business check. Pretty thousand pass staff. Wear prevent support resource safe remain.\nEver my subject daughter. Capital skill skin long growth tonight news.","previewFileId":"08418d42-ab2b-49c2-b2a4-555a365dc9f5","estimatedTime":"2 weeks","createdByUserId":"d58f8c33-dd08-4a54-9422-7472161dbb56"}'

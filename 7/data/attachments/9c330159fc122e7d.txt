@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTA1VDIwOjE0OjIxLjYwNTk2OSIsInVzZXJfaWQiOiJiNTA2ZmY2Mi1hMzYwLTQ5N2EtOWU5Yi1jMGRhMjM3MGQ4OTYifQ.mfDcZSjxsMfOf2Ow3nBsYDvITGXKQzrN_IyiT0WF_ZE' \
+  -H 'content-length: 392' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Clearly offer morning break put western seem state.","maxScore":92,"minScore":15,"description":"Current sit first manage development stop. Would summer send ten show direction interesting pattern. Eat trip trouble nice somebody campaign give.","previewFileId":"02b4d140-d106-4181-940f-ad94ce7f5c2e","estimatedTime":"5 weeks","createdByUserId":"b506ff62-a360-497a-9e9b-c0da2370d896"}'

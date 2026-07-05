@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTA1VDIwOjE0OjI0LjIyMjIwNyIsInVzZXJfaWQiOiIwYjM1ZDY2Ny1lMWQ1LTQ0NjktYTU5Ny0wMDQyY2JmMTcyM2QifQ.q6oTbZKYGixs3rSk9STI3jSKVmF-JlWZZpMfhY4HygU' \
+  -H 'content-length: 420' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Keep scene another home he.","maxScore":76,"minScore":28,"description":"Draw off able country concern. White own push far commercial whatever leader plant.\nThreat generation far plan. Season bed play program high production important. Drop impact cause plan laugh same.","previewFileId":"af1809d5-195b-4c49-8586-70d018e78f84","estimatedTime":"9 weeks","createdByUserId":"0b35d667-e1d5-4469-a597-0042cbf1723d"}'

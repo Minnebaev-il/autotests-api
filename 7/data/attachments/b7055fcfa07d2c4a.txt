@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTA1VDIwOjE0OjIyLjk2MDA2NSIsInVzZXJfaWQiOiIyNjNjMGYxNy1hMThkLTRjMjktOTM4MC1iMDYzODIwNDczMzcifQ.XfIXwDhqSO-nAX0aqc7W4YsPnd-OTDMwv-iH4H4E7hM' \
+  -H 'content-length: 406' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Race commercial check time charge TV fight.","maxScore":100,"minScore":21,"description":"However before result dream that southern business hit.\nMind director six official city. Contain air single participant. Wall within herself figure situation whether.","previewFileId":"3bf5ec87-d1c8-4a9b-9adf-79d1fe88e2a9","estimatedTime":"6 weeks","createdByUserId":"263c0f17-a18d-4c29-9380-b06382047337"}'

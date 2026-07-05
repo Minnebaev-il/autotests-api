@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTA1VDIwOjE0OjI1LjU3OTU2NiIsInVzZXJfaWQiOiIwNDE5MGVlNS0zNTNmLTQ5ZTYtYjEyZS1iYmJmMmI1MzdiOTgifQ.4D2TtOup0DxO0OKiaGEGS3Lpf74Wqzj_VGhc3f6ihR4' \
+  -H 'content-length: 200' \
+  -H 'content-type: application/json' \
+  -d '{"title":"May television loss.","courseId":"b91f283e-5b82-4f8c-8673-4f5cdaba77e9","maxScore":86,"minScore":14,"orderIndex":60,"description":"Nation single bring should who.","estimatedTime":"9 weeks"}'

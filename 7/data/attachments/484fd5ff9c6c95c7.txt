@@ -1,0 +1,24 @@
+INFO     HTTP LOGGER:event_hooks.py:17 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP LOGGER:event_hooks.py:21 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP LOGGER:event_hooks.py:17 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP LOGGER:event_hooks.py:21 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP LOGGER:event_hooks.py:17 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP LOGGER:event_hooks.py:21 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP LOGGER:event_hooks.py:17 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP LOGGER:event_hooks.py:21 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP LOGGER:event_hooks.py:17 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP LOGGER:event_hooks.py:21 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     HTTP LOGGER:event_hooks.py:17 Make GET request to http://localhost:8000/api/v1/exercises/b27f5952-f63b-4510-b954-d433b36eb714
+INFO     HTTP LOGGER:event_hooks.py:21 Got response 200 OK from http://localhost:8000/api/v1/exercises/b27f5952-f63b-4510-b954-d433b36eb714
+INFO     BASE_ASSERTIONS:base.py:18 Check that response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:50 Check get exercise response
+INFO     EXERCISES_ASSERTIONS:exercises.py:26 Check exercise
+INFO     BASE_ASSERTIONS:base.py:35 Check that "id" equals to b27f5952-f63b-4510-b954-d433b36eb714
+INFO     BASE_ASSERTIONS:base.py:35 Check that "title" equals to Start think recognize store weight.
+INFO     BASE_ASSERTIONS:base.py:35 Check that "course_id" equals to e4a96f12-f040-4610-8a72-b1434ae3d3f9
+INFO     BASE_ASSERTIONS:base.py:35 Check that "max_score" equals to 97
+INFO     BASE_ASSERTIONS:base.py:35 Check that "min_score" equals to 20
+INFO     BASE_ASSERTIONS:base.py:35 Check that "order_index" equals to 13
+INFO     BASE_ASSERTIONS:base.py:35 Check that "description" equals to Until minute everything middle wind.
+INFO     BASE_ASSERTIONS:base.py:35 Check that "estimated_time" equals to 1 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:21 Validate JSON schema

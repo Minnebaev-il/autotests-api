@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTA1VDIwOjE0OjI0Ljg0NTc4NCIsInVzZXJfaWQiOiI2MjJkMjA2ZS1hMDA1LTQ4NjYtYjc5ZS03OWY0NmI3OGVkM2EifQ.EUK2CBUQKkIx7XrzPzezqy3lF51yLL6-Q3ne2yB3wPI' \
+  -H 'content-length: 421' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Board yeah raise population thing eat or.","maxScore":62,"minScore":4,"description":"Into bad idea simply himself middle catch. Possible little read body.\nKnow those amount art. Eat election meet ok choice general machine news. True wear inside suffer young wife enough.","previewFileId":"e008555c-83c1-4597-9154-01306cd14ac3","estimatedTime":"2 weeks","createdByUserId":"622d206e-a005-4866-b79e-79f46b78ed3a"}'

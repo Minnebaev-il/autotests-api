@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTA3LTA1VDIwOjE0OjI1LjU3OTU2NiIsInVzZXJfaWQiOiIwNDE5MGVlNS0zNTNmLTQ5ZTYtYjEyZS1iYmJmMmI1MzdiOTgifQ.4D2TtOup0DxO0OKiaGEGS3Lpf74Wqzj_VGhc3f6ihR4' \
+  -H 'content-length: 389' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Represent boy group court necessary.","maxScore":88,"minScore":2,"description":"Race small true local language approach short. Soldier resource choice.\nWrite several central note responsibility either. Need rich manage write laugh record.","previewFileId":"125d915c-da43-4532-932c-14d7695c82de","estimatedTime":"4 weeks","createdByUserId":"04190ee5-353f-49e6-b12e-bbbf2b537b98"}'
