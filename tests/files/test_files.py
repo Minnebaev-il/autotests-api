@@ -72,6 +72,8 @@ class TestFiles:
         response = files_client.create_file_api(request)
         response_data = ValidationErrorResponseSchema.model_validate_json(response.text)
 
+        print(response_data)
+
         assert_status_code(response.status_code, HTTPStatus.UNPROCESSABLE_ENTITY)
         assert_create_file_with_empty_filename_response(response_data)
 
@@ -89,6 +91,8 @@ class TestFiles:
         )
         response = files_client.create_file_api(request)
         response_data = ValidationErrorResponseSchema.model_validate_json(response.text)
+
+        print(response_data)
 
         assert_status_code(response.status_code, HTTPStatus.UNPROCESSABLE_ENTITY)
         assert_create_file_with_empty_directory_response(response_data)
